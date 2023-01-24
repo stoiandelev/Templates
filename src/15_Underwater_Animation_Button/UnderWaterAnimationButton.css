@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f1f2f3;
+}
+button.btn {
+    border: 0;
+    padding: 12px 40px;
+    font-size: 18px;
+    background: #4b00ff;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    outline: 0;
+    transition: 0.3s linear;
+}
+button.btn:active {
+    transform: scale(0.85);
+    box-shadow: 3px 2px 25px 1px rgba(0,0,0,0.25);
+}
